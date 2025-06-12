@@ -1,0 +1,32 @@
+# Игнорируем все CSV файлы
+*.csv
+
+# Игнорируем содержимое папки unzip, кроме .gitkeep
+source/unzip/*
+!source/unzip/.gitkeep
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Временные файлы
+.DS_Store
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Логи и дампы БД
+*.log
+*.sql
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

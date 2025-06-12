@@ -1,0 +1,2 @@
+# This file ensures the unzip directory is included in version control
+# The actual data files are not included as they are read directly from the zip archive
